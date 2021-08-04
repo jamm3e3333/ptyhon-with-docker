@@ -16,5 +16,4 @@ services:
   web:
     #nazev slozky, ve ktere se nachazi root aplikace app.py
     build: ./flask
-  
-        
+    command: flask run

@@ -21,5 +21,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 #command pro spusteni flask aplikace 
-CMD ["flask", "run"]
 
